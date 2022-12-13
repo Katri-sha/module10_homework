@@ -1,0 +1,93 @@
+body{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.input-message {
+  width: 100%;
+  border: 1px #fff solid;
+  border-bottom: 1px rgb(23, 117, 28) solid;
+  font-size: 16px;
+  line-height: 20px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0 10px 0 0;
+}
+.input-message::placeholder {
+  color: rgba(42, 230, 51, 0.5);
+  font-size: 16px;
+  line-height: 20px;
+}
+input:focus {
+  color: #127517;
+  background-color: #fff;
+  border: 1px rgb(23, 117, 28) solid;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgba(42, 230, 51, 0.5);
+  box-sizing: border-box;
+}
+.btn {
+    background-color: rgba(42, 230, 51, 0.5);
+    cursor: pointer;
+    border: 1px rgb(34, 165, 40) solid;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0 5px;
+    box-shadow: 1px 1px 3px 0px rgb(34, 165, 40);
+}
+  .btn:hover {
+    box-shadow: 2px 2px rgb(23, 117, 28);
+  }
+  .div-message {
+    margin: 20px 10px 10px 10px;
+    display: flex;
+  }
+  .show-chat {
+    height: 400px;
+    border: 2px rgba(16, 94, 20, 0.5) solid;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+ p:nth-of-type(even) {
+    align-self: flex-end;
+}
+  .block-message, .link-geo, .block-geo {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 50%;
+    height: max-content;
+    border: 2px #127517 solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .block-geo {
+    color:rgb(12, 121, 115);
+  }
+  .client, .server {
+    font-size: 18px;
+    line-height: 20px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .client{
+    color: rgb(65, 36, 192);
+  }
+  .server {
+    color: rgb(192, 36, 184)
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color:#aed61b;
+    text-decoration: none;
+  }
